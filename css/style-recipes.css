@@ -3,6 +3,28 @@
 /*2.02 Add another css file for recipe pages for better structure and better reference*/
 
 /* 2.03 Formatting h1 element */
-h1{
+/* 2.04 Change selector from h1 to body to keep consistency of font on page */
+body{
+    /*2.03 change font of h1 to sans serif*/
     font-family: sans-serif;
+}
+
+/* 2.04 Change font color of h1 and h3 elements*/
+h1, h3 {
+    color: brown;
+    /* 2.04 Changing the background color of h1 and h3 to lightseagreen and adding a border*/
+    background-color: lightseagreen;
+    border: 8px dotted goldenrod;
+
+
+}
+
+/* 2.04 Change the ul element background-color*/
+ul {
+    background-color: pink;
+}
+
+/* 2.04 Change the ol element background-color */
+ol {
+    background-color: beige;
 }
