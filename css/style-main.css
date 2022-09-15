@@ -6,3 +6,8 @@ h1 {
     /* 2.01 change the heading of */
     font-family: sans-serif;
 }
+
+/* 2.05 Change size 1.25em of Recipe page links for easy access*/
+ul {
+    font-size: 1.25em;
+}
