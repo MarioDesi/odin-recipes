@@ -1,0 +1,8 @@
+/*style-main.css*/
+
+/* 2.02 move file to a CSS folder for better organization and changing name to style main*/
+
+h1 {
+    /* 2.01 change the heading of */
+    font-family: sans-serif;
+}
