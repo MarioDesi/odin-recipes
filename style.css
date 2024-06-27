@@ -10,6 +10,7 @@ h1 {
     font-weight: 800;
     color: orange;
     background-color: black;
+    border: 8px solid yellow;
 }
 
 h2 {
@@ -23,10 +24,35 @@ h3 {
 }
 
 .muffuletta {
-    width: 310;
+    width: 310px;
     height: auto;
+    display: block;
+    margin: 1px auto;
 }
 
 h4 {
     background-color: greenyellow;
+}
+
+ 
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 1em;
+    margin: 20px 5px;
+    display: block;
+
+}
+
+h4 {
+    padding: 1em 2em;
+    margin: 20px 16px
+}
+
+p,
+ul {
+    margin: 20px 16px;
+    padding: 1.5em;
 }
